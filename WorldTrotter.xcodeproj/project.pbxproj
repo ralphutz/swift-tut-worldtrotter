@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CAA763861E48B210004BF459 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA763851E48B210004BF459 /* AppDelegate.swift */; };
-		CAA763881E48B210004BF459 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA763871E48B210004BF459 /* ViewController.swift */; };
 		CAA7638B1E48B210004BF459 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA763891E48B210004BF459 /* Main.storyboard */; };
 		CAA7638D1E48B210004BF459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA7638C1E48B210004BF459 /* Assets.xcassets */; };
 		CAA763901E48B210004BF459 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAA7638E1E48B210004BF459 /* LaunchScreen.storyboard */; };
 		CAA7639B1E48B210004BF459 /* WorldTrotterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA7639A1E48B210004BF459 /* WorldTrotterTests.swift */; };
 		CAA763A61E48B210004BF459 /* WorldTrotterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA763A51E48B210004BF459 /* WorldTrotterUITests.swift */; };
+		CAA763B41E4A0B5B004BF459 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA763B31E4A0B5B004BF459 /* ConversionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		CAA763821E48B210004BF459 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA763851E48B210004BF459 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAA763871E48B210004BF459 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CAA7638A1E48B210004BF459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CAA7638C1E48B210004BF459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAA7638F1E48B210004BF459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		CAA763A11E48B210004BF459 /* WorldTrotterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldTrotterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA763A51E48B210004BF459 /* WorldTrotterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldTrotterUITests.swift; sourceTree = "<group>"; };
 		CAA763A71E48B210004BF459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA763B31E4A0B5B004BF459 /* ConversionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		CAA763841E48B210004BF459 /* WorldTrotter */ = {
 			isa = PBXGroup;
 			children = (
+				CAA763B31E4A0B5B004BF459 /* ConversionViewController.swift */,
 				CAA763851E48B210004BF459 /* AppDelegate.swift */,
-				CAA763871E48B210004BF459 /* ViewController.swift */,
 				CAA763891E48B210004BF459 /* Main.storyboard */,
 				CAA7638C1E48B210004BF459 /* Assets.xcassets */,
 				CAA7638E1E48B210004BF459 /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAA763881E48B210004BF459 /* ViewController.swift in Sources */,
+				CAA763B41E4A0B5B004BF459 /* ConversionViewController.swift in Sources */,
 				CAA763861E48B210004BF459 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
